@@ -1,0 +1,47 @@
+{
+  "name": "Barbos_Hackaton",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "http://Dostoyewski.github.io/FLS_Volonteer/",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "gh-pages": "^2.1.1",
+    "react-hot-loader": "^4.9.0",
+    "react-scripts": "^3.1.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@vkontakte/icons": "^1.10.0",
+    "@vkontakte/vk-connect": "^1.6.8",
+    "@vkontakte/vk-connect-promise": "^1.1.0",
+    "@vkontakte/vk-qr": "^2.0.8",
+    "@vkontakte/vkui": "^2.32.3",
+    "moment": "^2.24.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-yandex-maps": "^4.0.1",
+    "vk-qr": "^1.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

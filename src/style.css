@@ -1,0 +1,184 @@
+html {
+overflow:hidden;
+}
+
+:root {
+	/* idk */
+    --accent: #5022A4;
+	/* header */
+    --header_background: #4a76a8;
+	/* idk */
+    --button_primary_background: #4a76a8;
+	/* bottom buttons */
+    --segmented_control_tint: #4a76a8;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .event-main{
+    background-color: #FFFFFF;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #ACACAC29;
+    margin-bottom: 20px;
+  }
+  .event-main-into{
+    padding: 5px;
+  }
+  .layout{
+  
+  }
+  .select{
+  
+  }
+  .eventInfo{
+    background-color: #FFFFFF;
+    width: 92%;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #ACACAC29;
+    margin-top: 20px;
+    padding: 2%;
+  }
+  .eventPhoto{
+    background-color: black;
+    height: 250px;
+  }
+  .card{
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: green;
+  }
+  .cardBonus{
+    background-color: #FFFFFF;
+    width: 92%;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #ACACAC29;
+    margin-top: 20px;
+    padding: 2%;
+    height: 400px;
+  }
+  
+  .photoProfil{
+    width: 100px;
+    height: 100px;
+    background-color: #5022A4;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .karmaProfil{
+    width: 96%;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 6px #ACACAC29;
+    margin-bottom: 20px;
+  }
+  .formProfil{
+    width: 96%;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 6px #ACACAC29;
+  }
+  
+  .SputnikCard {
+    padding: 28px 36px;
+  }
+  
+  .SputnikCard__in {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .CardBonus {
+    padding: 10px;
+  }
+  
+  .CardBonus__in {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .CardBonus__rows {
+    border-left: 2px solid #5022A4;
+    padding-left: 26px;
+  }
+  
+  .CardBonus__row {
+    position: relative;
+  }
+  
+  .CardBonus__row::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #5022A4;
+    background: #fff;
+    position: absolute;
+    left: -36.5px;
+    top: 4px;
+  }
+  
+  .CardBonus__row + .CardBonus__row {
+    margin-top: 20px;
+  }
+  
+  .CardBonus__rowTitle {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2
+  }
+  
+  .CardBonus__caption {
+    color: #ADABB1;
+    font-size: 14px;
+    line-height: 1.4;
+    font-style: italic;
+    margin-top: 6px;
+  }
+  
+  .EventSent {
+    padding: 10px;
+  }
+  
+  .EventSent__in {
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  .EventSent__title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .EventSent .FormLayout--ios .EventSent__title {
+    padding: 0 12px;
+  }
+  
+  .EventSent .FormLayout--android .EventSent__title {
+    padding: 0 16px;
+  }	

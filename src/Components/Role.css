@@ -1,0 +1,30 @@
+.EventRole {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.EventRole + .EventRole {
+  margin-top: -6px;
+}
+
+.EventRole__name {
+  flex: 1;
+  min-width: 0;
+  padding-right: 12px;
+}
+
+.EventRole__current {
+  color: #33B3FF;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.EventRole__delimiter {
+  margin: 0 4px;
+}
+
+.EventRole .Icon {
+  color: #ADABB1;
+  margin-left: 8px;
+}

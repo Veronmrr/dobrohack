@@ -1,0 +1,20 @@
+    
+.wrapper {
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+        
+    img.loading-element__image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0; 
+        height: 100%; 
+        overflow: hidden;
+        z-index: -1;
+    }
+
+
+
+

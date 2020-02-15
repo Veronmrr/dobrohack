@@ -1,0 +1,91 @@
+.EventInfo {
+  padding: 10px;
+}
+
+.EventInfo__in {
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.EventInfo__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.EventInfo__cover {
+  margin: -15px -15px 22px;
+  position: relative;
+}
+
+.EventInfo__qr {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.EventInfo__roles,
+.EventInfo__description {
+  margin-top: 24px;
+}
+
+.EventInfo__rolesTitle {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.EventInfo__rolesTitle .Separator {
+  margin-top: 6px;
+}
+
+.EventInfo__where {
+  color: #ADABB1;
+  font-size: 15px;
+  margin: 10px 0;
+  line-height: 1.3;
+}
+
+.EventInfo__description {
+  color: #151313;
+  font-size: 16px;
+  line-height: 1.33;
+}
+
+.EventInfo__footer {
+  margin-top: 20px;
+}
+
+.EventInfoQr {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
+}
+
+.EventInfoQr__title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.EventInfoQr__svg {
+  margin-bottom: 16px;
+}
+
+.EventInfoQr__caption {
+  color: #ADABB1;
+  font-size: 14px;
+  line-height: 1.4;
+  font-style: italic;
+  margin-top: 6px;
+}

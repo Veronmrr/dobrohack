@@ -1,0 +1,56 @@
+.Panel__in-before + .EventCard {
+    padding-top: 12px;
+  }
+  
+  .EventCard {
+    padding: 5px 10px;
+  }
+  
+  .EventCard__in {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .EventCard__header {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .EventCard__title {
+    color: #151313;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .EventCard__exp {
+    font-weight: bold;
+    color: #FF0000;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 12px;
+  }
+  
+  .EventCard__where {
+    color: #ADABB1;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .EventCard__where + .EventCard__caption {
+    margin-top: 10px;
+  }
+  
+  .EventCard__caption {
+    color: #ADABB1;
+    font-size: 14px;
+    line-height: 1.4;
+    font-style: italic;
+  }
+  
+  .EventCard__roles {
+    margin: 10px 0;
+  }
