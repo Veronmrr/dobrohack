@@ -51,7 +51,7 @@ export default class TabAccount extends Component {
 	
   checkboxChange = () => {
 	  // ХЕНДЛЕР ДЛЯ ЧЕКБОКСА
-	  fetch('https://01f1fef5.ngrok.io/api/v1/vlt/detail/'+global.vlt[global.vlt_i].id, {
+	  fetch('https://fedos.pythonanywhere.com/api/v1/vlt/detail/'+global.vlt[global.vlt_i].id, {
       method: 'PUT', // Method itself
       headers: {
       'Accept': 'application/json',
@@ -85,7 +85,7 @@ export default class TabAccount extends Component {
   
     if (!flag){
       console.log('flag')
-      fetch('https://01f1fef5.ngrok.io/api/v1/vlt/create/', {
+      fetch('https://fedos.pythonanywhere.com/api/v1/vlt/create/', {
       method: 'POST', // Method itself
       headers: {
       'Accept': 'application/json',
