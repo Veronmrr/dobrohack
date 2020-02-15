@@ -1,8 +1,8 @@
 {
-  "name": "Barbos_Hackaton",
+  "name": "dobrohack",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://Dostoyewski.github.io/FLS_Volonteer/",
+  "homepage": "http://Veronmrr.github.io/dobrohack/",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "react-hot-loader": "^4.9.0",
     "react-scripts": "^3.1.2"
   },
