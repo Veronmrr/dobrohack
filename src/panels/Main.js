@@ -81,7 +81,7 @@ export default class Main extends Component {
 
     return (
       <Fragment>
-        <PanelHeader>Помоги Барбосу</PanelHeader>
+        <PanelHeader>Лапка помощи</PanelHeader>
         <TabComponent
           {...this.props}
         />
