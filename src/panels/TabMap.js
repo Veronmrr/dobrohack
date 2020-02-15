@@ -26,50 +26,58 @@ export default class TabMap extends Component {
                   <Placemark {... {
                     geometry: [59.9250078,30.2651232],
                     properties: {
-                    hintContent: 'Приют для животных "Брошенный ангел"',
-                    balloonContentHeader: '<strong>Приют для животных "Брошенный ангел"</strong>',
-					balloonContentBody: 'ул, Кожевенная линия, 1-3, Санкт-Петербург, <em> 199106</em>',
-					balloonContentFooter: '8 (812) 925-75-10'					
+						hintContent: '<strong>Приют для животных "Брошенный ангел"</strong>',
+						balloonContentHeader: '<strong>Приют для животных "Брошенный ангел"</strong>',
+						balloonContentBody: 'ул, Кожевенная линия, 1-3, Санкт-Петербург, <em> 199106</em>',
+						balloonContentFooter: '8 (812) 925-75-10'					
                     },
                     modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']    
                     }
                   }
                   />
                   <Placemark {...{
-                      geometry: [60.005928,30.3757615],
-                      properties: {
-                          hintContent: 'Центр помощи бездомным собакам',
-                          balloonContent: 'Центр помощи бездомным собакам /n Большой Смоленский пр., 9, Санкт-Петербург, 192148'
+                    geometry: [59.8958721,30.4055612],
+                    properties: {
+						hintContent: '<strong>Центр помощи бездомным собакам</strong>',
+						balloonContentHeader: '<strong>Центр помощи бездомным собакам</strong>',
+						balloonContentBody: 'Большой Смоленский пр., 9, Санкт-Петербург, <em> 192148</em>',
+						balloonContentFooter: '8 (812) 365-49-69'		                    
                       },
                       modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']
                     }
                   } 
                   />
                   <Placemark {...{
-                      geometry: [60.0328212,29.9048691],
-                      properties: {
-                          hintContent: 'БФ помощь бездомным собакам',
-                          balloonContent: 'БФ помощь бездомным собакам /n Большой Смоленский пр., 9, Санкт-Петербург, 192148'
+                    geometry: [59.9258075,30.290122],
+                    properties: {
+						hintContent: '<strong>Приют для хорьков "Северная корона"</strong>',
+						balloonContentHeader: '<strong>Приют для хорьков "Северная корона"</strong>',
+						balloonContentBody: 'Лиговский пр., 44, Санкт-Петербург, <em> 191040</em>',
+						balloonContentFooter: '8 (904) 638-20-50'
                       },
                       modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']
                     }
                   } 
                   />
 				  <Placemark {...{
-                      geometry: [59.9871847,30.2836098],
-                      properties: {
-                          hintContent: 'Ветклиника "Красный лис"',
-                          balloonContent: 'Ветклиника "Красный лис" /n Сестрорецкая ул., 8, Санкт-Петербург, 197183'
+                    geometry: [59.9792023,30.2780069],
+                    properties: {
+						hintContent: '<strong>Ветклиника "Красный лис"</strong>',
+						balloonContentHeader: '<strong>Ветклиника "Красный лис"</strong>',
+						balloonContentBody: 'Сестрорецкая ул., 8, Санкт-Петербург, <em> 197183</em>',
+						balloonContentFooter: '8 (812) 430-18-78'
                       },
                       modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']
                     }
                   } 
                   />
 				  <Placemark {...{
-                      geometry: [59.9386638,30.3196371],
-                      properties: {
-                          hintContent: 'Ветклиника "ВетСеть"',
-                          balloonContent: 'Ветклиника "ВетСеть" \n Большая Пороховская ул., 47, Санкт-Петербург, 195248'
+                    geometry: [59.952733,30.431274],
+                    properties: {
+						hintContent: '<strong>Ветклиника "ВетСеть"</strong>',
+						balloonContentHeader: '<strong>Ветклиника "ВетСеть"</strong>',
+						balloonContentBody: 'Большая Пороховская ул., 47, Санкт-Петербург, <em> 195248</em>',
+						balloonContentFooter: '8 (812) 612-11-10'
                       },
                       modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']
                     }
