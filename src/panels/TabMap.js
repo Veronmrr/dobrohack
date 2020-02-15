@@ -22,32 +22,32 @@ export default class TabMap extends Component {
                 <Map 
                   width={1000}
                   height={640}
-                  defaultState={{ center: [59.930822,30.465634], zoom: 11 }} >
+                  defaultState={{ center: [59.9503007,30.3764863], zoom: 11 }} >
                   <Placemark {... {
                     geometry: [59.9250078,30.2651232],
                     properties: {
                     hintContent: 'Приют для животных "Брошенный ангел"',
-                    balloonContent: 'Приют для животных "Брошенный ангел" \n ул, Кожевенная линия, 1-3, Санкт-Петербург, 199106' 
+                    balloonContent: 'Приют для животных "Брошенный ангел" /n ул, Кожевенная линия, 1-3, Санкт-Петербург, 199106' 
                     },
                     modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']    
                     }
                   }
                   />
                   <Placemark {...{
-                      geometry: [59.9111544,29.5667654],
+                      geometry: [60.005928,30.3757615],
                       properties: {
-                          hintContent: 'Приют для кошек "Новый дом"',
-                          balloonContent: 'Приют для кошек "Новый дом" \n Московское ш., 15а, Санкт-Петербург, 196158'
+                          hintContent: 'Центр помощи бездомным собакам',
+                          balloonContent: 'Центр помощи бездомным собакам /n Большой Смоленский пр., 9, Санкт-Петербург, 192148'
                       },
                       modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']
                     }
                   } 
                   />
                   <Placemark {...{
-                      geometry: [59.9552603,30.1896122],
+                      geometry: [60.0328212,29.9048691],
                       properties: {
                           hintContent: 'БФ помощь бездомным собакам',
-                          balloonContent: 'БФ помощь бездомным собакам \n Большой Смоленский пр., 9, Санкт-Петербург, 192148'
+                          balloonContent: 'БФ помощь бездомным собакам /n Большой Смоленский пр., 9, Санкт-Петербург, 192148'
                       },
                       modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']
                     }
@@ -57,14 +57,14 @@ export default class TabMap extends Component {
                       geometry: [59.9871847,30.2836098],
                       properties: {
                           hintContent: 'Ветклиника "Красный лис"',
-                          balloonContent: 'Ветклиника "Красный лис" \n Сестрорецкая ул., 8, Санкт-Петербург, 197183'
+                          balloonContent: 'Ветклиника "Красный лис" /n Сестрорецкая ул., 8, Санкт-Петербург, 197183'
                       },
                       modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']
                     }
                   } 
                   />
 				  <Placemark {...{
-                      geometry: [59.9509862,30.2637696],
+                      geometry: [59.9386638,30.3196371],
                       properties: {
                           hintContent: 'Ветклиника "ВетСеть"',
                           balloonContent: 'Ветклиника "ВетСеть" \n Большая Пороховская ул., 47, Санкт-Петербург, 195248'

@@ -86,10 +86,10 @@ export default class Main extends Component {
           {...this.props}
         />
 			<div class="fixed-action-btn"  style={{position: "relative"}}>
-              <a className="btn-floating btn-large waves-effect waves-light" style={{bottom: 60, left: 30, position: "fixed", border: "2px solid #000"}} onClick={this.refreshPage}>
+              <a className="btn-floating btn-large waves-effect waves-light" style={{bottom: 60, left: 15, position: "fixed", border: "2px solid #000"}} onClick={this.refreshPage}>
                 <img src="https://sun9-60.userapi.com/c858016/v858016157/bfa2f/EafeESlMfjI.jpg"/>
               </a>
-              <a class="btn-floating btn-large waves-effect waves-light" style={{bottom:60, right: 0, position: "fixed", border: "2px solid #000"}} onClick={this.onDonate}>
+              <a class="btn-floating btn-large waves-effect waves-light" style={{bottom:60, right: 15, position: "fixed", border: "2px solid #000"}} onClick={this.onDonate}>
                   {/*<i class="large material-icons">attach_money</i>*/}
                   <img src="https://sun9-31.userapi.com/c857328/v857328281/20302/L6VRcd72khg.jpg"/>
 				</a>
