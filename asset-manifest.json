@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FLS_Volonteer/static/css/main.19c5a3d5.chunk.css",
+    "main.js": "/FLS_Volonteer/static/js/main.f16001d0.chunk.js",
+    "main.js.map": "/FLS_Volonteer/static/js/main.f16001d0.chunk.js.map",
+    "runtime-main.js": "/FLS_Volonteer/static/js/runtime-main.4ecf0ea2.js",
+    "runtime-main.js.map": "/FLS_Volonteer/static/js/runtime-main.4ecf0ea2.js.map",
+    "static/css/2.2cfa1b23.chunk.css": "/FLS_Volonteer/static/css/2.2cfa1b23.chunk.css",
+    "static/js/2.d8ac720d.chunk.js": "/FLS_Volonteer/static/js/2.d8ac720d.chunk.js",
+    "static/js/2.d8ac720d.chunk.js.map": "/FLS_Volonteer/static/js/2.d8ac720d.chunk.js.map",
+    "index.html": "/FLS_Volonteer/index.html",
+    "precache-manifest.816916de139b93350c6c600b7e551a1a.js": "/FLS_Volonteer/precache-manifest.816916de139b93350c6c600b7e551a1a.js",
+    "service-worker.js": "/FLS_Volonteer/service-worker.js",
+    "static/css/2.2cfa1b23.chunk.css.map": "/FLS_Volonteer/static/css/2.2cfa1b23.chunk.css.map",
+    "static/css/main.19c5a3d5.chunk.css.map": "/FLS_Volonteer/static/css/main.19c5a3d5.chunk.css.map",
+    "static/js/2.d8ac720d.chunk.js.LICENSE.txt": "/FLS_Volonteer/static/js/2.d8ac720d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ecf0ea2.js",
+    "static/css/2.2cfa1b23.chunk.css",
+    "static/js/2.d8ac720d.chunk.js",
+    "static/css/main.19c5a3d5.chunk.css",
+    "static/js/main.f16001d0.chunk.js"
+  ]
+}
