@@ -27,7 +27,9 @@ export default class TabMap extends Component {
                     geometry: [59.9250078,30.2651232],
                     properties: {
                     hintContent: 'Приют для животных "Брошенный ангел"',
-                    balloonContent: 'Приют для животных "Брошенный ангел" /n ул, Кожевенная линия, 1-3, Санкт-Петербург, 199106' 
+                    balloonContentHeader: '<strong>Приют для животных "Брошенный ангел"</strong>',
+					balloonContentBody: 'ул, Кожевенная линия, 1-3, Санкт-Петербург, <em> 199106</em>',
+					balloonContentFooter: '8 (812) 925-75-10'					
                     },
                     modules: ['geoObject.addon.balloon', 'geoObject.addon.hint']    
                     }
