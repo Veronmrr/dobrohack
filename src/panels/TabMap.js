@@ -20,8 +20,8 @@ export default class TabMap extends Component {
         <div class="wrapper" >
           <YMaps>
                 <Map 
-                  width={1000}
-                  height={640}
+                  //width={1000}
+                  //height={640}
                   defaultState={{ center: [59.9503007,30.3764863], zoom: 11 }} >
                   <Placemark {... {
                     geometry: [59.9250078,30.2651232],
