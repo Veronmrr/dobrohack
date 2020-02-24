@@ -81,7 +81,7 @@ export default class EventInfo extends Component {
               {event.status === STATUS_DEFAULT &&
               <Button size="xl" onClick={() => {
 				  event.user_id = global.userInfo.id;
-				fetch('https://01f1fef5.ngrok.io/api/v1/task/detail/'+event.id, {method: 'PUT', // Method itself
+				fetch('https://fedos.pythonanywhere.com/api/v1/task/detail/'+event.id, {method: 'PUT', // Method itself
 																			 headers: {
 																			  'Content-type': 'application/json; charset=UTF-8' // Indicates the content 
 																			 },
@@ -94,7 +94,7 @@ export default class EventInfo extends Component {
               {event.status === STATUS_REQUESTED &&
               <Button size="xl" onClick={() => {
 				  event.user_id = 0;
-				  fetch('https://01f1fef5.ngrok.io/api/v1/task/detail/'+event.id, {method: 'PUT', // Method itself
+				  fetch('https://fedos.pythonanywhere.com/api/v1/task/detail/'+event.id, {method: 'PUT', // Method itself
 																			 headers: {
 																			  'Content-type': 'application/json; charset=UTF-8' // Indicates the content 
 																			 },
@@ -109,7 +109,7 @@ export default class EventInfo extends Component {
               }}>Отменить заявку</Button>}
 			  {(global.userInfo.isAdmin && event.user_id) &&
               <Button size="xl" onClick={() => {
-				  fetch('https://01f1fef5.ngrok.io/api/v1/task/detail/'+event.id, {method: 'PUT', // Method itself
+				  fetch('https://fedos.pythonanywhere.com/api/v1/task/detail/'+event.id, {method: 'PUT', // Method itself
 																			 headers: {
 																			  'Content-type': 'application/json; charset=UTF-8' // Indicates the content 
 																			 },
@@ -124,7 +124,7 @@ export default class EventInfo extends Component {
         global.vlt[global.vlt_i].karma += event.exp;
 
         console.log(global.vlt[global.vlt_i].karma)
-				fetch('https://01f1fef5.ngrok.io/api/v1/task/getlist/?format=json')
+				fetch('https://fedos.pythonanywhere.com/api/v1/task/getlist/?format=json')
 				.then(response => response.json())
 				.then(result => {
 				  global.jsn = result;

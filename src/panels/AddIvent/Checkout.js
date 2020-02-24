@@ -87,7 +87,7 @@ export default function Checkout() {
   const handleNext = () => {
     setActiveStep(activeStep + 1);
      if (activeStep == 2) {
-      fetch('https://01f1fef5.ngrok.io/api/v1/task/create/', {method: 'POST', // Method itself
+      fetch('https://fedos.pythonanywhere.com/api/v1/task/create/', {method: 'POST', // Method itself
       headers: {
        'Accept': 'application/json',
        'Content-Type': 'application/json'
@@ -100,7 +100,7 @@ export default function Checkout() {
         'allergy': global.that.state.allergy,
         'exp': global.that.state.XP,    
     })});
-    fetch('https://01f1fef5.ngrok.io/api/v1/task/getlist/?format=json')
+    fetch('https://fedos.pythonanywhere.com/api/v1/task/getlist/?format=json')
     .then(response => response.json())
     .then(result => {
       global.jsn = result;
