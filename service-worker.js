@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dobrohack/precache-manifest.2b33bfdf240cce144d1cd17a49aa61b2.js"
+  "/dobrohack/precache-manifest.822866559267caabc261544957f0fa33.js"
 );
 
 self.addEventListener('message', (event) => {
