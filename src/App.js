@@ -95,10 +95,10 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    this.RESP('https://fedos.pythonanywhere.com/api/v1/task/getlist/?format=json')
-    this.RESPSH('https://fedos.pythonanywhere.com/api/v1/shelter/getlist/?format=json')
-    this.RESPVLT('https://fedos.pythonanywhere.com/api/v1/vlt/getlist/?format=json')
-    //this.getJSON('https://fedos.pythonanywhere.com/api/v1/task/getlist/?format=json', this.loglog)
+    this.RESP('https://2936e8048862.ngrok.io/api/v1/task/getlist/?format=json')
+    this.RESPSH('https://2936e8048862.ngrok.io/api/v1/shelter/getlist/?format=json')
+    this.RESPVLT('https://2936e8048862.ngrok.io/api/v1/vlt/getlist/?format=json')
+    //this.getJSON('https://2936e8048862.ngrok.io/api/v1/task/getlist/?format=json', this.loglog)
     console.log(global.jsn)
     console.log(global.shelters)
     console.log(global.vlt)
