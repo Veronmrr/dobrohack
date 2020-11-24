@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dobrohack/static/css/main.19c5a3d5.chunk.css",
-    "main.js": "/dobrohack/static/js/main.12c7acff.chunk.js",
-    "main.js.map": "/dobrohack/static/js/main.12c7acff.chunk.js.map",
+    "main.js": "/dobrohack/static/js/main.ff924e31.chunk.js",
+    "main.js.map": "/dobrohack/static/js/main.ff924e31.chunk.js.map",
     "runtime-main.js": "/dobrohack/static/js/runtime-main.3d8e7a9d.js",
     "runtime-main.js.map": "/dobrohack/static/js/runtime-main.3d8e7a9d.js.map",
     "static/css/2.2cfa1b23.chunk.css": "/dobrohack/static/css/2.2cfa1b23.chunk.css",
     "static/js/2.6a473017.chunk.js": "/dobrohack/static/js/2.6a473017.chunk.js",
     "static/js/2.6a473017.chunk.js.map": "/dobrohack/static/js/2.6a473017.chunk.js.map",
     "index.html": "/dobrohack/index.html",
-    "precache-manifest.555cb1cc9c06dc7e3fff781cd401b3e8.js": "/dobrohack/precache-manifest.555cb1cc9c06dc7e3fff781cd401b3e8.js",
+    "precache-manifest.d537cd6955bc4d3faf6970f3f29b9f20.js": "/dobrohack/precache-manifest.d537cd6955bc4d3faf6970f3f29b9f20.js",
     "service-worker.js": "/dobrohack/service-worker.js",
     "static/css/2.2cfa1b23.chunk.css.map": "/dobrohack/static/css/2.2cfa1b23.chunk.css.map",
     "static/css/main.19c5a3d5.chunk.css.map": "/dobrohack/static/css/main.19c5a3d5.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.2cfa1b23.chunk.css",
     "static/js/2.6a473017.chunk.js",
     "static/css/main.19c5a3d5.chunk.css",
-    "static/js/main.12c7acff.chunk.js"
+    "static/js/main.ff924e31.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "549cb32c3d2ab763398bd161d214eca4",
+    "revision": "945925bb637ca4c1d2a8c2cfcf5cfad1",
     "url": "/dobrohack/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dobrohack/static/css/2.2cfa1b23.chunk.css"
   },
   {
-    "revision": "2d64c85cf23fe1588e19",
+    "revision": "437bbbfc9512614fcbbc",
     "url": "/dobrohack/static/css/main.19c5a3d5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dobrohack/static/js/2.6a473017.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d64c85cf23fe1588e19",
-    "url": "/dobrohack/static/js/main.12c7acff.chunk.js"
+    "revision": "437bbbfc9512614fcbbc",
+    "url": "/dobrohack/static/js/main.ff924e31.chunk.js"
   },
   {
     "revision": "a9e08bf00e627ba227a3",
